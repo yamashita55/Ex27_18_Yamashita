@@ -6,7 +6,8 @@ namespace Ex_2022_Template
         static void Main(string[] args)
         {
             var name = InputUtility.Input("Name:");
-            Console.WriteLine($"Hello {name}!");
+            var age = InputUtility.InputNumber("Age:", 120);
+            Console.WriteLine($"Hello {name}! \n U are {age} yeaes old.");
         }
     }
 }
